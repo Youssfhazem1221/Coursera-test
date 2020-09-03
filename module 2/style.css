@@ -1,1 +1,77 @@
+*{
+    box-sizing: border-box;
+    ;
+}
 
+html{
+    margin: 0;
+    padding:0;    
+}
+
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.mainnav{
+    background-image: linear-gradient(to right, rgb(77, 77, 77) , rgb(104, 104, 104));
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+.header{
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    text-align: left;
+    
+}
+.wrapper .col-2{
+    display:flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    margin: 6%;
+}
+
+.Chicken, .Beef, .Sushi{
+    float: left;
+    background: rgb(145, 145, 145);
+    text-align: left;
+    margin-right: 0.5%;
+    margin-left:0.5%;
+    ;
+}
+
+.col-3, .col-4, .col-5{
+    width:32%;
+}
+span{
+    text-align: center;
+    padding: 2px;
+    display:block;
+    font-size: 20   px;
+    font-weight: bold;;
+}
+
+p{
+    margin: 10px;
+    font-weight: 300;
+}
+.wrapper a{
+    text-decoration: underline;
+    color:rgb(83, 83, 143);
+}
+.header:hover{
+    text-shadow: 1px 1px 2px white;;
+}
+}
+/* Desktop is more than 768;*/
+/* Tablet is more than 576*/
+/* Mobile is less than 576 */
