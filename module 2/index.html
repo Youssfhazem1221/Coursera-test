@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coursera Test</title>
+</head>
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: cursive;
+    }
+    h1{
+      margin:5%;
+      text-align: center;;
+    }
+  
+
+    .column1, .column2, .column3 {
+      float: left;
+      width: 31%;
+      padding: 20px;
+      margin: 1%;
+      padding: 1% 1%;
+      position: relative;
+      border: 2px solid black;
+    }
+
+  .div1, .div2, .div3{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    border: 1px solid black;
+    height: 15%;
+    width: 30%;
+    text-align: center;;
+  }
+  .div1{
+    background: pink;
+  }
+  .div2{
+    background: red;
+    color: white;
+  }
+
+  .div3{
+    background: orange;
+  }
+    
+    @media screen and (max-width: 991px) {
+      .column1, .column2 {
+        width: 47%;
+        float: left;
+      }
+      .column3{
+        width: 96%;
+      }
+    }
+    
+    @media screen and (max-width: 767px) {
+      .column1, .column2, .column3 {
+        width: 100%;
+      }
+    }
+    </style>
+  <h1>Our Menu</h1>
+  <div class="row">
+    <div class="column1" style="background-color:#aaa;">
+     <div class="div1">Chicken</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+    <div class="column2" style="background-color:#aaa;">
+      <div class="div2">Beef</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="column3" style="background-color:#aaa;">
+      <div class="div3">Sushi</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  
+</body>
+</html>
